@@ -1,0 +1,7 @@
+Les arguments sont les couples (ai, bi) où i <= 4 et i >= 0.
+Les sorties sont les si où i <= 4 et i >= 0 et f.
+s1 = 1 si l'un des couples (ai, bi) vaut (1, 0) et que les autres valent soit
+(1, 1) ou (0, 0).
+f = 1 si tous les couples (ai, bi) valent soit (1, 1) ou (0, 0).
+On en déduit que c'est une comparaison entre deux mots de 4 bits a1a2a3a4 et 
+b1b2b3b4 quand s1 = 1 alors a1a2a3a4 < b1b2b3b4.
